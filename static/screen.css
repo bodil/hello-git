@@ -19,8 +19,10 @@ html {
 body {
     margin: 0;
     background: url(cassette-sram.jpg);
-    font-family: 'Gloria Hallelujah', cursive, sans-serif;
+    font-family: 'Helvetica', bold, sans-serif;
     font-size: 1.4em;
+	font-variant: small-caps;
+	color: red;
 }
 
 h1 {
