@@ -1,3 +1,5 @@
+// This is a web server.
+
 var express = require("express"),
     http = require("http");
 
