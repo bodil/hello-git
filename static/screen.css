@@ -35,6 +35,10 @@ h1 {
     box-shadow: 0 0 16px rgba(128, 128, 128, 0.4);
 }
 
+h2 {
+	text-align: center;
+}
+
 ul {
     margin: 0;
     padding: 0 2em;
