@@ -10,6 +10,7 @@
       HELLO HELLO!
       <img src="hellocthulhu-left.png">
     </h1>
+    
     <ul>
       <% docs.forEach(function(doc) { %>
       <li class="<%= doc.done ? 'done' : 'open' %>">
@@ -17,14 +18,14 @@
           <input class="delete" type="submit" value="<%= '\u267b' %>">
         </form>
         <form method="post" action="/done/<%= doc.id %>">
-          <input class="check" type="submit" value="<%= doc.done ? '\u2611' : '\u2610' %>">
+          You wrote:<input class="check" type="submit" value="<%= doc.done ? '\u2611' : '\u2610' %>">
         </form>
         <span><%= doc.todo %></span>
       </li>
       <% }) %>
     </ul>
     <form method="post" action="/new">
-      <input type="text" name="todo">
+      Please write something: <input type="text" name="todo">
     </form>
     <script type="text/javascript">document.querySelector("input[type=text]").focus()</script>
   </body>
