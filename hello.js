@@ -8,7 +8,7 @@ app.use(express.bodyParser());
 app.use(express.errorHandler());
 app.use(express.static(__dirname + "/static"));
 
-// Database :)
+// Database that rox:)
 
 var database = {
     docs: [],
