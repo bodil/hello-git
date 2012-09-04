@@ -18,7 +18,7 @@ html {
 
 body {
     margin: 0;
-    background: url(exclusive_paper.png);
+    background: url(cassette-sram.jpg);
     font-family: 'Gloria Hallelujah', cursive, sans-serif;
     font-size: 1.4em;
 }
@@ -29,7 +29,7 @@ h1 {
     text-align: center;
     background: rgba(128, 128, 128, 0.2);
     color: black;
-    font-family: 'Permanent Marker', cursive, sans-serif;
+    font-family: 'fantasy', cursive, sans-serif;
     font-size: 1.8em;
     text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
     box-shadow: 0 0 16px rgba(128, 128, 128, 0.4);
