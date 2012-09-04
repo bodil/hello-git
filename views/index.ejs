@@ -6,9 +6,14 @@
   </head>
   <body>
     <h1>
-      <img src="hellocthulhu-right.png">
-      HELLO!
-      <img src="hellocthulhu-left.png">
+	<marquee scrollamount="15" direction="left" behavior="alternate"><marquee scrollamount="15" direction="right" behavior="alternate">
+		<img src="hellocthulhu-right.png">
+		</marquee></marquee>
+      
+      <marquee scrollamount="15" direction="up" behavior="alternate"><marquee scrollamount="15" direction="right" behavior="alternate">HELLO!</marquee></marquee>
+<marquee scrollamount="15" direction="up" behavior="alternate"><marquee scrollamount="15" direction="right" behavior="alternate">      
+<img src="hellocthulhu-left.png">
+	</marquee></marquee>
     </h1>
     <ul>
       <% docs.forEach(function(doc) { %>
@@ -17,8 +22,10 @@
           <input class="delete" type="submit" value="<%= '\u267b' %>">
         </form>
         <form method="post" action="/done/<%= doc.id %>">
+		
           <input class="check" type="submit" value="<%= doc.done ? '\u2611' : '\u2610' %>">
-        </form>
+        
+		</form>
         <span><%= doc.todo %></span>
       </li>
       <% }) %>
