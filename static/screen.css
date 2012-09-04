@@ -1,17 +1,3 @@
-@font-face {
-  font-family: 'Permanent Marker';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Permanent Marker'), local('PermanentMarker'), url('permanentmarker.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Gloria Hallelujah';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Gloria Hallelujah'), local('GloriaHallelujah'), url('gloriahallelujah.ttf') format('truetype');
-}
-
 html {
     margin: 0;
 }
@@ -19,10 +5,10 @@ html {
 body {
     margin: 0;
     background: url(cassette-sram.jpg);
-    font-family: 'Helvetica', bold, sans-serif;
+    font-family: monospace, sans-serif;
     font-size: 1.4em;
-	font-variant: small-caps;
-	color: red;
+	font-weight: bold;
+    color: #90001C;
 }
 
 h1 {
@@ -31,7 +17,7 @@ h1 {
     text-align: center;
     background: rgba(128, 128, 128, 0.2);
     color: black;
-    font-family: 'fantasy', cursive, sans-serif;
+    font-family: monospace, bold, sans-serif;
     font-size: 1.8em;
     text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
     box-shadow: 0 0 16px rgba(128, 128, 128, 0.4);
@@ -85,7 +71,7 @@ body > form:before {
 }
 
 body > form input {
-    font-family: 'Gloria Hallelujah', cursive, sans-serif;
+    font-family: inherit, cursive, sans-serif;
     font-size: 1em;
     width: 75%;
     border-top: 1px solid rgba(128, 128, 128, 0.4);
@@ -95,7 +81,7 @@ body > form input {
 }
 
 body > form input, li {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.8);
     box-shadow: 0 0 16px rgba(128, 128, 128, 0.2);
 }
 
