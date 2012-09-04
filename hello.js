@@ -4,7 +4,6 @@ var express = require("express"),
     http = require("http");
 
 // Configure server
-
 var app = express();
 app.use(express.bodyParser());
 app.use(express.errorHandler());
