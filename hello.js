@@ -60,5 +60,5 @@ app.post("/delete/:id", function(req, res) {
 });
 
 var server = http.createServer(app);
-server.listen(parseInt(process.env.PORT, 10) || 1337);
+server.listen(parseInt(process.env.PORT, 10) || 31337);
 console.log("Listening on http://localhost:" + server.address().port + "/");

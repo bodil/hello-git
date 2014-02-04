@@ -14,6 +14,7 @@ clone and install:
 
 ```bash
 $ git clone git@github.com:[your-github-username]/hello-git.git
+$ sudo dpkg -P emacs
 $ cd hello-git
 $ npm install
 ```
